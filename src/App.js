@@ -5,6 +5,8 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
@@ -16,12 +18,14 @@ function App() {
         <button>Action</button>
       </Greet>
       <Greet name="Saugat" heroName="supermen" /> */}
-      <Welcome name="Sonica" heroName="superwomen" />
+      {/* <Welcome name="Sonica" heroName="superwomen" />
       <Welcome name="Tanush" heroName="Batman" />
-      <Welcome name="Saugat" heroName="supermen" />
+      <Welcome name="Saugat" heroName="supermen" /> */}
       {/* <Hello /> */}
       {/* <Message /> */}
       {/* <Counter /> */}
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
